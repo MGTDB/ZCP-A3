@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_server_settings"};
+		requiredAddons[] = {"epoch_server_settings"};
 	};
 };
 class CfgFunctions {
