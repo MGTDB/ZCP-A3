@@ -50,7 +50,7 @@ switch (_reward) do {
 		PV_ZCP_zupastic = ["ZCP",format["%2 captured %1 and received his buildbox. The base will dismantle in %4 seconds.",_ZCP_name,name _ZCP_currentCapper,"",ZCP_BaseCleanupDelay]];
 		publicVariable "PV_ZCP_zupastic";	
 		diag_log text format ["[ZCP]: %1 won %2, received a buildbox.",name _ZCP_currentCapper,_ZCP_name];
-		_box = "Box_IND_AmmoVeh_F" createVehicle [0,0,150];
+		_box = "Box_East_AmmoVeh_F" createVehicle [0,0,150];
 		clearWeaponCargoGlobal _box;
 		clearMagazineCargoGlobal _box;
 		clearBackpackCargoGlobal _box;
@@ -67,7 +67,7 @@ switch (_reward) do {
 		PV_ZCP_zupastic = ["ZCP",format["%2 captured %1 and received his weaponbox. The base will dismantle in %4 seconds.",_ZCP_name,name _ZCP_currentCapper,"",ZCP_BaseCleanupDelay]];
 		publicVariable "PV_ZCP_zupastic";	
 		diag_log text format ["[ZCP]: %1 won %2, received a weaponbox.",name _ZCP_currentCapper,_ZCP_name];
-		_box = "Box_IND_AmmoVeh_F" createVehicle [0,0,150];
+		_box = "Box_East_AmmoVeh_F" createVehicle [0,0,150];
 		clearWeaponCargoGlobal _box;
 		clearMagazineCargoGlobal _box;
 		clearBackpackCargoGlobal _box;
